@@ -1,0 +1,83 @@
+.errorbox{
+  width: 50%;
+  margin: 50px auto 50px;
+  text-align: center;
+}
+
+.create {
+  width: 80%;
+  margin: 50px auto 50px;
+  text-align: center;
+}
+
+.create_ttl {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px
+}
+
+.create input {
+  width: 150px;
+  height: 30px;
+}
+
+.create_btn {
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+
+table {
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+th {
+  height: 40px;
+}
+
+td {
+  height: 40px;
+  border-bottom: solid 1px #a9a9a9;
+  border-top: solid 1px #a9a9a9;
+  vertical-align: middle;
+}
+
+.search_btn {
+  width: 100px;
+  margin: 10px auto 50px;
+}
+
+.timeinput {
+  width: 150px;
+  height: 30px;
+  border: none;
+}
+
+.update_btn {
+  color: white;
+  background-color: blue;
+  border: solid 1px blue;
+  border-radius: 3px;
+}
+
+.del_btn {
+  color: white;
+  background-color: red;
+  border: solid 1px red;
+  border-radius: 3px;
+}
+
+.paginate{
+  width:50%;
+  margin: 50px auto 50px;
+}
+
+svg.w-5.h-5 {
+  /*paginateメソッドの矢印の大きさ調整のために追加*/
+  width: 30px;
+  height: 30px;
+  color: black;
+}
